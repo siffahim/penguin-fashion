@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,6 +9,7 @@
     <!------------- tailwind cdn link -------------->
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
+
 <body>
     <header class="bg-red-50 pt-4">
         <nav class="flex px-16 items-center justify-between">
@@ -23,15 +25,18 @@
         </nav>
         <section class="md:flex items-center justify-around py-12 px-4">
             <div class="space-y-5">
-                <h1 class="text-6xl uppercase font-bold"><span class="text-yellow-400">be the Penguins</span><br>
-                <span class="text-gray-800">of winter</span>
+                <h1 class="text-6xl uppercase font-bold"><span class="text-yellow-400" id="penguin-text">be the
+                        Penguins</span><br>
+                    <span class="text-gray-800">of winter</span>
                 </h1>
                 <p class="w-2/3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam, odio.</p>
-                <button class="text-white font-bold bg-green-400 px-3 py-2 rounded uppercase">
-                <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                </svg>
-                buy now</button>
+                <button class="text-white font-bold bg-green-400 px-3 py-2 rounded uppercase" id="buynow-btn">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20"
+                        fill="currentColor">
+                        <path
+                            d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                    </svg>
+                    buy now</button>
             </div>
             <div>
                 <img src="images/model.png" alt="">
@@ -53,9 +58,11 @@
                     <div class="flex justify-between">
                         <h1 class="text-yellow-400 text-3xl font-bold">$234</h1>
                         <button class="text-white font-bold bg-green-400 px-3 py-2 rounded uppercase">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
                             buy now
                         </button>
                     </div>
@@ -70,9 +77,11 @@
                     <div class="flex justify-between">
                         <h1 class="text-yellow-400 text-3xl font-bold">$234</h1>
                         <button class="text-white font-bold bg-green-400 px-3 py-2 rounded uppercase">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
                             buy now
                         </button>
                     </div>
@@ -87,9 +96,11 @@
                     <div class="flex justify-between">
                         <h1 class="text-yellow-400 text-3xl font-bold">$234</h1>
                         <button class="text-white font-bold bg-green-400 px-3 py-2 rounded uppercase">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
                             buy now
                         </button>
                     </div>
@@ -110,9 +121,11 @@
                     <div class="flex justify-between">
                         <h1 class="text-yellow-400 text-3xl font-bold">$234</h1>
                         <button class="text-white font-bold bg-green-400 px-3 py-2 rounded uppercase">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
                             buy now
                         </button>
                     </div>
@@ -127,9 +140,11 @@
                     <div class="flex justify-between">
                         <h1 class="text-yellow-400 text-3xl font-bold">$234</h1>
                         <button class="text-white font-bold bg-green-400 px-3 py-2 rounded uppercase">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
                             buy now
                         </button>
                     </div>
@@ -144,9 +159,11 @@
                     <div class="flex justify-between">
                         <h1 class="text-yellow-400 text-3xl font-bold">$234</h1>
                         <button class="text-white font-bold bg-green-400 px-3 py-2 rounded uppercase">
-                                <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
-                                <path d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
-                                </svg>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="inline mr-1 h-5 w-5" viewBox="0 0 20 20"
+                                fill="currentColor">
+                                <path
+                                    d="M3 1a1 1 0 000 2h1.22l.305 1.222a.997.997 0 00.01.042l1.358 5.43-.893.892C3.74 11.846 4.632 14 6.414 14H15a1 1 0 000-2H6.414l1-1H14a1 1 0 00.894-.553l3-6A1 1 0 0017 3H6.28l-.31-1.243A1 1 0 005 1H3zM16 16.5a1.5 1.5 0 11-3 0 1.5 1.5 0 013 0zM6.5 18a1.5 1.5 0 100-3 1.5 1.5 0 000 3z" />
+                            </svg>
                             buy now
                         </button>
                     </div>
@@ -193,5 +210,8 @@
     <footer class="mt-14 mb-5 text-center">
         <p>Copyright &copy; All file reserve by Penguin Fashion</p>
     </footer>
+
+    <script src="index.js"></script>
 </body>
+
 </html>
